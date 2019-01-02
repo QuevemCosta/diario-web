@@ -1,0 +1,30 @@
+  .intLink { cursor: pointer; }
+   img.intLink { 
+    width: 40px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #ebedef;
+
+  }
+  #toolBar1 select { 
+    font-size:14px;
+    width: 120px;
+    padding: 5px;
+    margin: 5px 0;
+  }
+  #textBox {
+    width: 950px;
+    height: 1000px;
+    border: 5px solid #dddddd;
+    background-color: #ebedefff;
+    padding: 50px;
+    overflow: auto;
+
+  }
+  #textBox #sourceText {
+    padding: 15px;
+    margin: 0;
+    min-width: 498px;
+    min-height: 200px;
+  }
+  #editMode label { cursor: pointer;}

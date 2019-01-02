@@ -1,0 +1,61 @@
+body{
+  max-width: auto;
+  min-width: 1080px;
+  font-size: 16px;
+  margin: auto;
+}
+/*Bordas*/
+  	table tr th.borda-1{
+  		background-color:#ebedef;
+  	}
+  	.borda-2{
+  		border:1px solid red;
+  		border-style: dotted;
+  	}
+    
+  	.table-round-corner {
+    margin-top: 15px;
+    margin-right: 5px;
+    width: 100%;
+    text-align: center;
+    overflow:hidden;
+    border-collapse:separate;
+    border: solid grey 1px;
+    -webkit-border-radius: 10px;
+       -moz-border-radius: 10px;
+            border-radius: 10px;
+	}
+  	/*Tabelas*/
+    
+  	table tr th.aluno{
+  		min-width: 75px;
+  		text-align:center;
+  		font-size: 16px;
+  	}
+   	table tr td{
+  		padding: 0px;
+  		font-size: 12px;
+	    background-color: white;
+	    border: 1px solid #ddd;
+
+  	}
+
+    table tr th input{
+      width: 22px;
+      margin:1px;
+      border-color: grey;
+      border-width: 1px; 
+      background-color: #007bff;
+      border-radius: 3px;
+      font-size: 12;
+      font-weight: bold;
+    }
+  	table tr td input{
+  		width: 20px;
+  		margin:1px;
+  		border-color: blue;
+      border-width: 1px; 
+  		background-color: #fff;
+  		border-radius: 3px;
+  		text-transform: uppercase;
+  	}
